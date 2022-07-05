@@ -1,0 +1,5 @@
+camp = ('Palmeiras', 'Corinthians', 'Internacional', 'Athletico-PR', 'São Paulo', 'Atlético-MG', 'Avaí', 'Santos', 'Bragantino', 'Flamengo', 'Fluminense', 'Coritiba', 'América-MG', 'Botafogo', 'Ceará', 'Goiás', 'Atlético-GO', 'Cuiabá', 'Juventude', 'Fortaleza')
+print(f'\nOs 5 primeiros colocados são: {camp[:5]}')
+print(f'Os times na zona de rebaixamento são: {camp[-4:]}')
+print(f'Os 20 times da Serie A do Brasileirão 2022: {sorted(camp)}')
+print('Na 12° rodada o Flamengo se encontra na {}° posição'.format(camp.index('Flamengo')+1))
